@@ -1,0 +1,317 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+*
+{
+border: 0;
+margin: 0;
+}
+
+img
+{
+border: 0px;
+}
+
+
+
+a{
+	color: #1659BF;
+	text-decoration: underline;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #1659BF;
+	text-decoration: none;
+}
+
+body{
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #000000;
+	background: url(images/bg.jpg) center top no-repeat #1659BF;
+	line-height: 17px;
+}
+
+#main {
+	width: 1014px;
+	margin: 0 auto;
+}
+
+#top { width: 1014px;
+height: 10px;
+background:url(images/top.png) left top no-repeat; }
+
+#bot { width: 1014px;
+height: 10px;
+background:url(images/bot.png) left bottom no-repeat; }
+
+
+#header { 
+width:1014px;
+padding: 0px 0px 0px 0px;
+background: #FFFFFF;
+}
+
+#logo {	font-family: Arial, Helvetica, sans-serif;
+		color:#FFFFFF;
+		font-size:18px;
+		font-style:italic;
+		padding: 44px 0px 0px 105px;
+		height: 98px;
+}
+
+#logo a {
+	text-decoration: none;
+	text-transform: lowercase;
+	font-style: italic;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+
+#logo H2 a{
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: none;
+	font-weight:100;
+}
+
+#buttons{
+	width: 1000px;
+	text-align:center;
+	padding-left:10px;
+	padding-top: 0px;
+	height: 64px;
+}
+
+#buttons a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	display: block;
+	float: left;
+	height: 35px;
+	text-decoration: none;
+	color: #FFFFFF;
+	padding-top: 20px;
+	padding-left: 0px;
+	text-align: center;
+	background: url(images/but.gif) 30px 20px no-repeat;
+	text-transform:lowercase;
+}
+
+.but1 {
+padding-top: 0px;
+width: 197px;
+float: left ;
+text-align:center;
+background:url(images/b1.jpg) 0px 0px no-repeat;}
+
+.but2 {
+padding-top: 0px;
+width: 198px;
+float:left;
+text-align:center;
+background:url(images/b2.jpg) 0px 0px no-repeat;}
+.but3 {
+padding-top: 0px;
+width: 199px;
+float:left;
+background:url(images/b3.jpg) 0px 0px no-repeat;}
+
+.but4 {
+padding-top: 0px;
+width: 197px;
+float:left;
+background:url(images/b4.jpg) 0px 0px no-repeat;}
+
+.but5 {
+padding-top: 0px;
+width: 204px;
+float:left;
+background:url(images/b5.jpg) 0px 0px no-repeat;}
+
+.but1:hover{
+padding-top: 0px;
+width: 197px;
+float: left ;
+text-align:center;
+background:url(images/b11.jpg) 0px 0px no-repeat;}
+.but2:hover{
+padding-top: 0px;
+width: 198px;
+float: left ;
+text-align:center;
+background:url(images/b22.jpg) 0px 0px no-repeat;}
+.but3:hover{
+padding-top: 0px;
+width: 199px;
+float: left ;
+text-align:center;
+background:url(images/b33.jpg) 0px 0px no-repeat;}
+.but4:hover{
+padding-top: 0px;
+width: 197px;
+float: left ;
+text-align:center;
+background:url(images/b44.jpg) 0px 0px no-repeat;}
+.but5:hover{
+padding-top: 0px;
+width: 204px;
+float: left ;
+text-align:center;
+background:url(images/b55.jpg) 0px 0px no-repeat;}
+
+
+#top_box {
+height: 305px;
+width: 1014px;
+background: #FFFFFF;}
+
+#left_box {
+height: 296px;
+width: 592px;
+background:url(images/big_img.jpg) left top no-repeat;
+float: left;
+margin-left: 10px;}
+
+#right_box {
+height: 296px;
+width: 361px;
+background:url(images/right_box.jpg) left top no-repeat;
+margin-right: 10px;
+float: right;
+padding: 0px 15px 0px 17px;
+color:#FFFFFF;}
+
+#right_box H1 {
+font-family: Arial, Helvetica, sans-serif;
+font-size:14px;
+font-style: italic;
+font-weight: bold;
+color:#FFFFFF;
+padding: 20px 0px 14px 0px;
+}
+
+#right_box span {
+font-weight:bold;}
+
+
+
+#content{
+	width: 1014px;
+	padding: 0px 0px 0px 0px;
+	background: #FFFFFF;
+	margin: 0px 0px 0px 0px;
+}
+
+#left{
+	width: 592px;
+	margin: 0px 0px 0px 11px;
+	float: left;
+	color:#000000;
+}
+
+.right_b {	background: url(images/fish.gif)  0px 3px no-repeat;
+		padding-left: 24px;
+		padding-right: 5px;
+}
+
+.text{
+	padding: 0px 0px 0px 0px;
+}
+
+.img {	float:left;
+		margin: 4px 16px 7px 0px;
+}
+
+#left span {	color:#004262;
+		font-weight:bold;
+}
+
+#right span {	color:#004262;
+		font-weight:bold;
+		text-decoration: none;
+}
+
+#left H1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight: 100;
+	color: #004262;
+	text-align:left;
+	padding: 15px 0px 15px 0px;
+}
+
+#right H1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight: 100;
+	color: #004262;
+	padding-top: 12px;
+	padding-left: 0px;
+	text-align: left;
+	padding: 15px 0px 15px 0px;
+}
+
+.read{
+	text-align:right;
+	padding-right:10px;
+	padding-top: 4px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#right{
+float: right;
+width: 378px;
+margin-right: 10px;
+padding: 0px 0px 0px 0px;
+}
+
+.left_bot {
+width: 100%;
+line-height: 23px;
+}
+.left_bot a {
+font-weight:bold;
+color:#004262;
+text-decoration:underline;
+}
+.left_bot a:hover {
+text-decoration: none;}
+
+.r_left {
+width: 278px;
+float:left;}
+.r_left {
+width: 278px;
+float:left;}
+
+.tit_bot { background: url(images/bg_tit.png) left top no-repeat;
+padding: 0px 8px 0px 8px;}
+
+#footer{
+	height: 48px;
+	width: 100%;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: center;
+	clear:both;
+	padding: 16px 0px 0px 0px;
+	background: url(images/footer.jpg) left bottom  no-repeat;
+}
+
+#footer a{
+	color: #FFFFFF;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#footer a:hover{
+	color: #FFFFFF;
+	font-size: 12px;
+	text-decoration: underline;
+}
